@@ -1,3 +1,16 @@
 body {
     background: slateblue;
 }
+
+.
+.nameTitle {
+ border: 1px black solid;
+}
+
+.bio {
+ border: 1px burlywood;
+}
+
+.footnote {
+    background-color: brown;
+}
