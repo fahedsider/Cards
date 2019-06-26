@@ -80,3 +80,12 @@ for ( let i = 0 ; i < myPeople.length; i++){
 }
 
 peopleContainer.innerHTML = personString;
+
+peopleContainer.addEventListener("click", function(event){
+    console.log("click test");
+    let bioClass= document.getElementsByClassName("bio");
+    for (let x = 0; x<bioClass.length;x++){
+        bioClass[x].classList.add("yellow");
+    }
+}
+);
